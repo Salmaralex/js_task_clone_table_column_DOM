@@ -1,0 +1,2 @@
+function e(e){var n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:0,a=arguments.length>2&&void 0!==arguments[2]?arguments[2]:1,g=t.getElementsByTagName(e)[0].getElementsByTagName("tr")[n],l=Array.from(g.children),o=l[a].cloneNode(!0);l.splice(l.length-1,0,o),g.innerHTML="",l.forEach(function(e){return g.appendChild(e)})}var t=document.getElementsByTagName("table")[0];e("thead");for(var n=t.getElementsByTagName("tbody")[0].getElementsByTagName("tr"),a=0;a<n.length;a++)e("tbody",a);e("tfoot");
+//# sourceMappingURL=index.16862931.js.map
